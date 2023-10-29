@@ -1,0 +1,246 @@
+
+.Container{
+    display: flex;
+    background-color: rgb(141 147 145 / 18%);
+    justify-content: center;
+    justify-content:space-evenly;
+    height: 36rem;
+    width: 71rem;
+    margin-left: 5rem;
+    margin-top: 2%;
+    border-radius: 3rem ;
+  
+    
+}
+.Citizen{
+    margin-left: 1rem;
+    width: 4rem;
+    height: 2rem;
+}
+.Investment-container-Expect{
+    margin-left: -23rem;
+    margin-right: -8rem;
+    margin-top: 4rem;
+    margin-left: -34rem;
+    display: flex;
+    height: 30rem;
+
+    justify-content: center;
+    align-items: center;
+   
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+}
+
+  
+  
+
+
+
+
+.Grey-Text{
+    color: gray;
+    margin: 1rem;
+}
+.text-color{
+    font-size: larger;
+    color: rgba(15,172,133);
+}
+.Regular{
+    height: 2rem;
+    width: 18rem;
+}
+
+
+.Investment-container{
+    margin-top: 5rem;
+    margin-right: -8rem;
+    margin-left: -34rem;
+    display: flex;
+    height: 26rem;
+
+    justify-content: center;
+    align-items: center;
+   
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+}
+#Lumpsum{
+
+    width: 10rem;
+    height: 3rem;
+}
+
+.Container-invested{
+    margin-left: 9rem;
+
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+}
+input{
+    margin-top: -23px;
+    width: 20rem;
+
+    height: 1.9rem;
+}
+
+.Invest{
+    display: flex;
+    justify-content: space-between;
+}
+.Option{
+    height: 2rem;
+    width: 20rem;
+}
+.Container-invested button{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    color: antiquewhite;
+    font-size: large;
+    background-color: cornflowerblue;
+    width: 6rem;
+    height: 2rem;
+}
+.Container-invested button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: red;
+}
+.Expect{
+    height: 2rem;
+    width: 12rem;
+}
+.Chart{
+    height: 100rem;
+    width: 123rem;
+
+}
+.btn{
+    display: flex;
+    gap: 1rem   ;
+    justify-content:space-evenly;
+    height: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  
+
+}
+.INVEST-Amount{
+    background-color: red;
+}
+.INVEST-BUTTON{
+
+    width: 11rem;
+    margin-left: 1rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+
+} 
+.INVEST-BUTTON:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: rgb(236, 62, 62);
+}
+@media  screen and (max-width: 750px) {
+ 
+    .Period-Expected{
+        display: flex;
+      
+    
+    }
+  
+    .INVEST-BUTTON{
+
+        width: 9rem;
+        margin-left: 1rem;
+        height:2rem;
+      
+    
+    } 
+    .Container{
+        border-radius:0 ;
+
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        margin-top: -1rem;
+        
+   
+      
+        
+    }
+    .Investment-container{
+        margin-left: -123px;
+        display: flex;
+        height: 25;
+        justify-content: center;
+        align-items: center;   
+        flex-direction: column;
+        width: 72%;
+    }
+    .Container-invested{
+      
+       margin-top: 1rem;
+      
+    align-items: center;
+    justify-content: center;
+    width: 72%;
+    height: 30rem
+    }
+    input{
+       
+        width: 20rem;
+    
+        height: 1rem;
+    }
+    .btn{
+
+        margin-left: 0;
+      
+    
+    }
+    .Investment-container-Expect{
+        margin-left: -23rem;
+        margin-right: -34rem;
+        margin-top: 4rem;
+        margin-left: -34rem;
+        display: flex;
+        height: 30rem;
+    
+        justify-content: center;
+        align-items: center;
+       
+        color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        flex-direction: column;
+    }
+    #Text{
+        margin-left: -11rem;
+
+    }
+    .Calculate{
+        margin-right: 11rem;
+    }
+    .Regular{
+     
+        width: 20rem;
+    }
+    
+    
+ 
+  
+    
+    
+ 
+    
+ 
+  }
+

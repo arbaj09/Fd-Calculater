@@ -1,0 +1,19 @@
+.GRAPH{
+    DISPLAY: flex;
+    align-items: center;
+    justify-content: center;
+    height: 19rem;
+   
+
+   
+}
+@media  screen and (max-width: 750px) {
+    .GRAPH{
+        margin-left: -11rem;
+    width: 23rem;
+    }
+  
+
+   
+
+}
